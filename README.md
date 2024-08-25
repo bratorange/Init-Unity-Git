@@ -14,15 +14,17 @@ A bash script to set up a Git repository for Unity projects with appropriate con
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/unity-git-setup.git
+   git clone https://github.com/bratorange/Init-Unity-Git.git
    ```
-
-2. Make the script executable:
+2. Clone this repository:
+   ```
+   cd Init-Unity-Git
+   ```
+3. Make the script executable:
    ```
    chmod +x setup_unity_git.sh
    ```
-
-3. Run the script, specifying your Unity project path:
+4. Run the script, specifying your Unity project path:
    ```
    ./setup_unity_git.sh /path/to/your/unity/project
    ```
@@ -32,13 +34,6 @@ A bash script to set up a Git repository for Unity projects with appropriate con
 - Git
 - Bash shell (use Git Bash on Windows)
 - Unity installation (for UnityYAMLMerge tool)
-
-## Post-Setup Unity Configuration
-
-After running the script, configure your Unity project:
-1. Edit > Project Settings > Version Control
-2. Set Mode to 'Visible Meta Files'
-3. Set Asset Serialization Mode to 'Force Text'
 
 ## Sources
 
