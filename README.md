@@ -32,6 +32,7 @@ A bash script to set up a Git repository for Unity projects with appropriate con
 ## Requirements
 
 - Git
+- Git LFS
 - Bash shell (use Git Bash on Windows)
 - Unity installation (for UnityYAMLMerge tool)
 
